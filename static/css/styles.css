@@ -1,0 +1,62 @@
+.container-5 {
+  border: 2px solid rgb(255, 255, 255);
+  width: 75%;
+  margin: 2% auto;
+  text-align: center;
+}
+.flex-blackjack-row-0 {
+  background: url("../asserts/images/bg1.png") center;
+  height: 100px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.flex-blackjack-row-results,
+.flex-blackjack-row-3,
+.flex-blackjack-row-2 {
+  background: url("../asserts/images/bg2.png") center;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-blackjack-row-1 {
+  background: url("../asserts/images/bg3.png") center;
+  color: aliceblue;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1px solid rgb(255, 255, 255);
+  /* //give equal amt of size to all items in flex */
+  flex: 1;
+  padding: 10px;
+  min-height: 250px;
+  height: auto;
+  text-align: center;
+}
+
+.flex-blackjack-row-2 div {
+  padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  width: 100px;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+}
